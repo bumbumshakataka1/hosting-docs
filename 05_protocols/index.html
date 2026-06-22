@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="ru" class="no-js">
   <head>
     
       <meta charset="utf-8">
@@ -8,32 +8,32 @@
       
       
       
-        <link rel="canonical" href="https://github.io/en/protocols/">
+        <link rel="canonical" href="https://github.io/05_protocols/">
       
       
-        <link rel="prev" href="../faq/">
+        <link rel="prev" href="../04_vpn-setup/">
       
       
-        <link rel="next" href="../vpn-setup/">
+        <link rel="next" href="../06_3x-ui/">
       
       
         
-          <link rel="alternate" href="../../protocols/" hreflang="ru">
+          <link rel="alternate" href="./" hreflang="ru">
         
-          <link rel="alternate" href="./" hreflang="en">
+          <link rel="alternate" href="../en/05_protocols/" hreflang="en">
         
       
       
-      <link rel="icon" href="../../images/favicon.png">
+      <link rel="icon" href="../images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>🔌 Protocols: AmneziaWG (AWG) and XRay / VLESS - Amnezia Hosting Docs</title>
+        <title>🔌 Протоколы: AmneziaWG (AWG) и XRay / VLESS - Amnezia Hosting Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
       
 
@@ -52,9 +52,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,8 +72,8 @@
     <div data-md-component="skip">
       
         
-        <a href="#protocols-amneziawg-awg-and-xray-vless" class="md-skip">
-          Skip to content
+        <a href="#amneziawg-awg-xray-vless" class="md-skip">
+          Перейти к содержанию
         </a>
       
     </div>
@@ -87,10 +87,10 @@
   
 
 <header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../" title="Amnezia Hosting Docs" class="md-header__button md-logo" aria-label="Amnezia Hosting Docs" data-md-component="logo">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Amnezia Hosting Docs" class="md-header__button md-logo" aria-label="Amnezia Hosting Docs" data-md-component="logo">
       
-  <img src="../../assets/logo.png" alt="logo">
+  <img src="../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              🔌 Protocols: AmneziaWG (AWG) and XRay / VLESS
+              🔌 Протоколы: AmneziaWG (AWG) и XRay / VLESS
             
           </span>
         </div>
@@ -121,20 +121,20 @@
       <div class="md-header__option">
   <div class="md-select">
     
-    <button class="md-header__button md-icon" aria-label="Select language">
+    <button class="md-header__button md-icon" aria-label="Выберите язык">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
     </button>
     <div class="md-select__inner">
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../protocols/" hreflang="ru" class="md-select__link">
+            <a href="./" hreflang="ru" class="md-select__link">
               Русский
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="./" hreflang="en" class="md-select__link">
+            <a href="../en/05_protocols/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -155,16 +155,16 @@
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
-      <nav class="md-search__options" aria-label="Search">
+      <nav class="md-search__options" aria-label="Поиск">
         
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
@@ -175,7 +175,7 @@
       <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
         <div class="md-search-result" data-md-component="search-result">
           <div class="md-search-result__meta">
-            Initializing search
+            Инициализация поиска
           </div>
           <ol class="md-search-result__list" role="presentation"></ol>
         </div>
@@ -209,11 +209,11 @@
 
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../" title="Amnezia Hosting Docs" class="md-nav__button md-logo" aria-label="Amnezia Hosting Docs" data-md-component="logo">
+    <a href=".." title="Amnezia Hosting Docs" class="md-nav__button md-logo" aria-label="Amnezia Hosting Docs" data-md-component="logo">
       
-  <img src="../../assets/logo.png" alt="logo">
+  <img src="../assets/logo.png" alt="logo">
 
     </a>
     Amnezia Hosting Docs
@@ -228,14 +228,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../01_index/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    📂 Docs
+    📂 Главная
   
 
     
@@ -255,14 +255,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../commands/" class="md-nav__link">
+      <a href="../02_commands/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    🚀 Quick Start with VPS
+    🚀 Быстрый старт по работе с VPS
   
 
     
@@ -282,14 +282,41 @@
   
   
     <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
+      <a href="../03_faq/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    ❓ Troubleshooting (FAQ)
+    ❓ Решение проблем (FAQ)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_vpn-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🛡️ Как запустить свой VPN
   
 
     
@@ -325,7 +352,7 @@
   <span class="md-ellipsis">
     
   
-    🔌 Protocols: AmneziaWG (AWG) and XRay / VLESS
+    🔌 Протоколы: AmneziaWG (AWG) и XRay / VLESS
   
 
     
@@ -343,7 +370,7 @@
   <span class="md-ellipsis">
     
   
-    🔌 Protocols: AmneziaWG (AWG) and XRay / VLESS
+    🔌 Протоколы: AmneziaWG (AWG) и XRay / VLESS
   
 
     
@@ -355,7 +382,7 @@
       
         
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
   
   
   
@@ -364,7 +391,7 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Содержание
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
@@ -381,10 +408,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pros-cons" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Pros &amp; Cons
+        Плюсы и минусы
       
     </span>
   </a>
@@ -392,10 +419,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#best-used-for" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Best Used For
+        Кому подойдет?
       
     </span>
   </a>
@@ -420,10 +447,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pros-cons_1" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Pros &amp; Cons
+        Плюсы и минусы
       
     </span>
   </a>
@@ -431,10 +458,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#best-used-for_1" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Best Used For
+        Кому подойдет?
       
     </span>
   </a>
@@ -447,10 +474,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#protocol-comparison-matrix" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📊 Protocol Comparison Matrix
+        📊 Сводное сравнение
       
     </span>
   </a>
@@ -458,10 +485,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#setup-and-configuration-guide" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ⚙️ Setup and Configuration Guide
+        ⚙️ Как настроить в приложении
       
     </span>
   </a>
@@ -483,14 +510,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../vpn-setup/" class="md-nav__link">
+      <a href="../06_3x-ui/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    🛡️ How to Launch Your Own VPN
+    📊 Установка и настройка веб-панели 3X-UI
   
 
     
@@ -516,7 +543,7 @@
                   <div class="md-sidebar__inner">
                     
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
   
   
   
@@ -525,7 +552,7 @@
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
-      Table of contents
+      Содержание
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
@@ -542,10 +569,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pros-cons" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Pros &amp; Cons
+        Плюсы и минусы
       
     </span>
   </a>
@@ -553,10 +580,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#best-used-for" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Best Used For
+        Кому подойдет?
       
     </span>
   </a>
@@ -581,10 +608,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pros-cons_1" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Pros &amp; Cons
+        Плюсы и минусы
       
     </span>
   </a>
@@ -592,10 +619,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#best-used-for_1" class="md-nav__link">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Best Used For
+        Кому подойдет?
       
     </span>
   </a>
@@ -608,10 +635,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#protocol-comparison-matrix" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📊 Protocol Comparison Matrix
+        📊 Сводное сравнение
       
     </span>
   </a>
@@ -619,10 +646,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#setup-and-configuration-guide" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ⚙️ Setup and Configuration Guide
+        ⚙️ Как настроить в приложении
       
     </span>
   </a>
@@ -646,74 +673,74 @@
 
 
 
-<h1 id="protocols-amneziawg-awg-and-xray-vless">🔌 Protocols: AmneziaWG (AWG) and XRay / VLESS</h1>
-<p>To ensure maximum connection speed and reliably bypass censorship, our network utilizes two of the most advanced VPN protocols available. Below is a detailed breakdown of their features, pros and cons, and recommended use cases.</p>
+<h1 id="amneziawg-awg-xray-vless">🔌 Протоколы: AmneziaWG (AWG) и XRay / VLESS</h1>
+<p>Для обеспечения максимальной скорости и обхода блокировок в нашей сети используются два самых передовых протокола. Ниже разобраны их особенности, отличия и сценарии использования.</p>
 <hr />
 <h2 id="amneziawg-awg">🛡️ AmneziaWG (AWG)</h2>
-<p><strong>AmneziaWG</strong> is a modern fork of the popular WireGuard protocol. The Amnezia development team added header obfuscation to protect traffic from detection by Deep Packet Inspection (DPI) systems.</p>
-<h3 id="pros-cons">Pros &amp; Cons</h3>
+<p><strong>AmneziaWG</strong> — это форк популярного протокола WireGuard. Разработчики Amnezia добавили в него скрытие заголовков (обфускацию), чтобы защитить трафик от обнаружения системами DPI (глубокого анализа пакетов).</p>
+<h3 id="_1">Плюсы и минусы</h3>
 <ul>
-<li><strong>➕ Pros:</strong> Maximum throughput speed, minimal battery consumption on mobile devices, near-instant connection times, and stable performance on mobile data networks.</li>
-<li><strong>➖ Cons:</strong> In certain highly restrictive networks, UDP traffic may be heavily throttled or entirely blocked by the ISP.</li>
+<li><strong>➕ Плюсы:</strong> Максимальная скорость соединения, минимальная нагрузка на батарею смартфона, мгновенное подключение, стабильная работа на мобильном интернете.</li>
+<li><strong>➖ Минусы:</strong> В некоторых сетях со сверхжесткой фильтрацией UDP-трафик может полностью блокироваться или замедляться провайдером.</li>
 </ul>
-<h3 id="best-used-for">Best Used For</h3>
-<p>Ideal for daily use, high-definition streaming, online gaming (low latency/ping), and downloading files—provided your ISP does not block UDP connections.</p>
+<h3 id="_2">Кому подойдет?</h3>
+<p>Идеально для повседневного использования, стриминга, игр (низкий пинг) и просмотра видео в высоком качестве, если ваш провайдер не блокирует UDP.</p>
 <hr />
 <h2 id="xray-vless-reality">⚡ XRay / VLESS (Reality)</h2>
-<p><strong>XRay running VLESS with Reality stealth technology</strong> represents the cutting edge of anti-censorship tools. It operates over TCP and fully camouflages your VPN traffic as a standard visit to a legitimate, unblocked website (such as a major international marketplace or IT platform).</p>
-<h3 id="pros-cons_1">Pros &amp; Cons</h3>
+<p><strong>XRay с протоколом VLESS и маскировкой Reality</strong> — это вершина технологий обхода блокировок. Он работает поверх протокола TCP и полностью маскирует ваш VPN-трафик под посещение обычного разрешенного сайта (например, крупного зарубежного интернет-магазина или IT-ресурса).</p>
+<h3 id="_3">Плюсы и минусы</h3>
 <ul>
-<li><strong>➕ Pros:</strong> Virtually immune to modern censorship and blocking techniques. The ISP only detects a standard, secure HTTPS connection to a regular website.</li>
-<li><strong>➖ Cons:</strong> Slightly higher CPU utilization on your device; maximum speeds may be marginally lower compared to AWG.</li>
+<li><strong>➕ Плюсы:</strong> Неуязвим для большинства современных систем блокировок. Провайдер видит обычное HTTPS-соединение со сторонним сайтом.</li>
+<li><strong>➖ Минусы:</strong> Чуть более высокая нагрузка на процессор устройства, скорость может быть незначительно ниже, чем у AWG.</li>
 </ul>
-<h3 id="best-used-for_1">Best Used For</h3>
-<p>Highly recommended as the primary protocol in regions with strict internet censorship, or as a reliable backup option if AmneziaWG fails to connect.</p>
+<h3 id="_4">Кому подойдет?</h3>
+<p>Рекомендуется использовать как основной протокол в регионах с жесткой цензурой интернета, либо как надежный резервный вариант, если AmneziaWG перестал подключаться.</p>
 <hr />
-<h2 id="protocol-comparison-matrix">📊 Protocol Comparison Matrix</h2>
+<h2 id="_5">📊 Сводное сравнение</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Feature</th>
+<th style="text-align: left;">Характеристика</th>
 <th style="text-align: left;">AmneziaWG (AWG)</th>
 <th style="text-align: left;">XRay / VLESS (Reality)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Traffic Type</strong></td>
-<td style="text-align: left;">Obfuscated UDP</td>
-<td style="text-align: left;">TCP / TLS (Web Masking)</td>
+<td style="text-align: left;"><strong>Тип трафика</strong></td>
+<td style="text-align: left;">UDP (с обфускацией)</td>
+<td style="text-align: left;">TCP / TLS (маскировка под сайт)</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Speed &amp; Ping</strong></td>
-<td style="text-align: left;">🚀 Excellent (Max Performance)</td>
-<td style="text-align: left;">⚡ Good</td>
+<td style="text-align: left;"><strong>Скорость и пинг</strong></td>
+<td style="text-align: left;">🚀 Отличные (максимальные)</td>
+<td style="text-align: left;">⚡ Хорошие</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Censorship Bypass</strong></td>
-<td style="text-align: left;">High (DPI Resistant)</td>
-<td style="text-align: left;">👑 Complete (Indistinguishable from standard web traffic)</td>
+<td style="text-align: left;"><strong>Обход блокировок</strong></td>
+<td style="text-align: left;">Высокий (эффективен против DPI)</td>
+<td style="text-align: left;">👑 Абсолютный (неотличим от веб-сайта)</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Battery Impact</strong></td>
-<td style="text-align: left;">Minimal</td>
-<td style="text-align: left;">Moderate</td>
+<td style="text-align: left;"><strong>Расход батареи</strong></td>
+<td style="text-align: left;">Минимальный</td>
+<td style="text-align: left;">Средний</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="setup-and-configuration-guide">⚙️ Setup and Configuration Guide</h2>
-<p>No complex command-line actions are required. Configuration is fully automated through the official <strong>Amnezia VPN</strong> client app:</p>
+<h2 id="_6">⚙️ Как настроить в приложении</h2>
+<p>Никаких сложных консольных команд не требуется. Вся настройка происходит через официальное приложение <strong>Amnezia VPN</strong>:</p>
 <ol>
-<li>Open the Amnezia application and select your server.</li>
-<li>Navigate to the <strong>"Protocols"</strong> tab (or Server Settings).</li>
-<li>Click the <strong>"Install"</strong> button next to your chosen protocol (AWG or XRay).</li>
-<li>Wait for the setup process to finish (typically takes under 1 minute).</li>
-<li>Return to the main screen, choose the newly installed protocol from the dropdown menu, and click <strong>"Connect"</strong>.</li>
+<li>Откройте приложение Amnezia и выберите ваш сервер.</li>
+<li>Перейдите во вкладку <strong>"Протоколы"</strong> (или "Настройки сервера").</li>
+<li>Нажмите кнопку <strong>"Установить"</strong> напротив нужного протокола (AWG или XRay).</li>
+<li>Дождитесь завершения установки (обычно занимает до 1 минуты).</li>
+<li>Вернитесь на главный экран, выберите добавленный протокол в выпадающем списке и нажмите <strong>"Подключиться"</strong>.</li>
 </ol>
 <div class="admonition info">
-<p class="admonition-title">Pro Tip</p>
-<p>We highly recommend deploying both protocols on your server. Use <strong>AmneziaWG</strong> by default to enjoy peak speeds, and switch to <strong>XRay</strong> seamlessly if you encounter any connectivity issues.</p>
+<p class="admonition-title">Совет по безопасности</p>
+<p>Мы рекомендуем установить оба протокола на ваш сервер. Используйте <strong>AmneziaWG</strong> по умолчанию для максимальной скорости, а в случае перебоев со связью переключайтесь на <strong>XRay</strong>.</p>
 </div>
 
 
@@ -764,10 +791,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
