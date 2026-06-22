@@ -84,4 +84,10 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/06_3x-ui/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/06_3x-ui/"/>
     </url>
+    <url>
+        <loc>https://github.io/en/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/"/>
+    </url>
 </urlset>
