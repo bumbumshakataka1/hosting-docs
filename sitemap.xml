@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://github.io/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/"/>
+    </url>
+    <url>
+        <loc>https://github.io/commands/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/commands/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/commands/"/>
+    </url>
+    <url>
+        <loc>https://github.io/faq/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/faq/"/>
+    </url>
+    <url>
+        <loc>https://github.io/protocols/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/protocols/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/protocols/"/>
+    </url>
+    <url>
+        <loc>https://github.io/vpn-setup/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/vpn-setup/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/vpn-setup/"/>
+    </url>
+    <url>
+        <loc>https://github.io/en/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/"/>
+    </url>
+    <url>
+        <loc>https://github.io/en/commands/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/commands/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/commands/"/>
+    </url>
+    <url>
+        <loc>https://github.io/en/faq/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/faq/"/>
+    </url>
+    <url>
+        <loc>https://github.io/en/protocols/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/protocols/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/protocols/"/>
+    </url>
+    <url>
+        <loc>https://github.io/en/vpn-setup/</loc>
+        <lastmod>2026-06-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/en/vpn-setup/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://github.io/vpn-setup/"/>
+    </url>
+</urlset>
