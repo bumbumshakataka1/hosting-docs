@@ -85,3 +85,46 @@ hr {
     border-top: 1px solid #1e293b !important;
     margin: 32px 0 !important;
 }
+/* Эффект стекла для верхней панели навигации */
+.md-header {
+  /* Делаем черный фон полупрозрачным (альфа-канал 0.7) */
+  background-color: rgba(11, 12, 16, 0.7) !important;
+  
+  /* Эффект размытия заднего плана (для современных браузеров) */
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important; /* Поддержка для Safari/iOS */
+  
+  /* Легкая тонкая граница снизу для усиления эффекта стекла */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  
+  /* Плавный переход при изменении состояний */
+  transition: background-color 0.25s, backdrop-filter 0.25s !important;
+}
+
+/* Фикс для теневой подложки, чтобы она не перекрывала прозрачность */
+.md-header[data-md-state="shadow"] {
+  background-color: rgba(11, 12, 16, 0.8) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4) !important;
+}
+/* Эффект стекла для выпадающего поиска */
+.md-search__output {
+  background-color: rgba(18, 19, 26, 0.8) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+/* Красивый тонкий скроллбар */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0c10;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 230, 97, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 230, 97, 0.6);
+}
